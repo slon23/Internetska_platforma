@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vjezba 20</title>
+    <style>
+        /* Resetiranje margina i paddinga */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Općeniti stilovi */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        /* Stilovi za naslov */
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        h1:hover {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        /* Stilovi za prvi paragraf */
+        .para-1 {
+            letter-spacing: 2px;
+            word-spacing: 7px;
+            text-transform: capitalize;
+        }
+
+        /* Stilovi za drugi paragraf */
+        .para-2 {
+            line-height: 20px;
+            text-transform: lowercase;
+        }
+
+        /* Zajednički stilovi za paragrafe */
+        p {
+            text-indent: 50px;
+        }
+
+        p:hover {
+            transform: scale(1.02);
+            background-color: #f5f5f5;
+        }
+
+        /* Stilovi za karticu */
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px 0;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+
+        }
+
+        .card h2 {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primjer Naslova</h1>
+
+    <p class="para-1">Ovo je prvi paragraf sa specifičnim razmakom između slova i riječi, te velikim početnim slovima.</p>
+
+    <p class="para-2">Ovo je drugi paragraf s prilagođenom visinom retka i malim slovima.</p>
+
+    <div class="card">
+        <h2>Naslov Kartice</h2>
+        <img src="image1.jpg" alt="Primjer slike">
+        <p>Ovo je primjer teksta unutar kartice. Kartica ima efekte prilikom prelaska mišem i sjenu.</p>
+    </div>
+</body>
+</html>
